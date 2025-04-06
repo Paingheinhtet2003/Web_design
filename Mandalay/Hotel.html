@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels</title>
+    <style>
+         a:focus a:hover, .portfolio-cat a:hover, .footer -menu li a:hover {
+            color: #2b96cc;
+            text-decoration: none;
+        }
+        ul {
+            margin: 0px;
+            padding: 0px;
+        }
+        .container {
+            max-width: 960px;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+        .col-md-6 {
+            flex: 0 0 50%;
+            max-width: 33.333%;
+        }
+        .pt5 {
+            padding-top: 3rem;
+        }
+        .pb5 {
+            padding-top: 3rem;
+        }
+        .col-xl-12 {
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .col-lg-4, .col-md-6, .col-xl-4 {
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .pb-3 {
+            padding-bottom: 1rem;
+        }
+        *, ::after, ::before {
+            box-sizing: border-box;
+        }
+        .section-title h2 {
+            position: relative;
+            margin-bottom: 45px;
+            display: inline-block;
+            font-weight: 600;
+            line-height: 1;
+        }
+        .section-title h2::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            width: 60px;
+            height: 2px;
+            background: #ff5e14;
+            bottom: -25px;
+            margin-left: -30px;
+        }
+        .section-title.service-title p {
+            margin-bottom: 10px;
+        }
+        .blog-area {
+            background: #F8F9FA;
+            min-height: 100vh;
+        }
+        .blog-wrapper {
+            background: #fff;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .home-blog-wrapper{
+            transition: .3s;
+        }
+        .blog-wrapper.home-blog-wrapper:hover {
+            box-shadow: 10px 20px 30px rgba(0,0,0,.12);
+        }
+        .blog-thumb {
+            margin-bottom: 20px;
+        }
+        .blog-title {
+            display: inline-block;
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 1.4;
+            margin: 10px 0 15px;
+            padding: 0;
+            text-align: left;
+        }
+        .blog-content.home-blog h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .blog-content.home-blog p {
+            margin-bottom: 10px;
+        }
+        .blog-title a {
+            color: #222;
+            text-decoration: none;
+        }
+        .blog-title a:hover {
+            color: #ff5e14;
+        }
+        .blog-thumb img {
+            width: 100%;
+        }
+        .meta-info ul li {
+            color: #9e9e9e;
+            display: inline-block;
+            font-size: 11px;
+            padding: 0 12px;
+            position: relative;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        .embed-responsive {
+            margin-bottom: 20px;
+        }
+        .meta-info ul li:first-child {
+            padding-left: 0;
+        }
+        .meta-info ul li a {
+            color: #ff5e14;
+        }
+        .meta-info ul li a:hover {
+            color: #444;
+        }
+        .meta-info ul li::before {
+            border: 1px solid #999;
+            border-radius: 5px;
+            content: "";
+            height: 5px;
+            left: -4px;
+            position: absolute;
+            top: 6px;
+            width: 5px;
+        }
+        .meta-info ul li :first-child:before {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <section class="blog-area pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 text-center pb-3">
+                    <div class="section-title service-title">
+                        <h2>Hotels</h2>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="blog-wrapper home-blog-wrapper white-bg">
+                    <div class="blog-thumb">
+                        <img src="pullman.png" alt="">
+                    </div>
+                    <div class="meta-info">
+                        <ul>
+                            <li class="post-time">July 24, 2023</li>
+                        </ul>
+                    </div>
+                    <div class="blog-content home-blog">
+                        <h2 class="blog-title">
+                            <a href="">
+                               Mandalay Mingular Hotel
+                            </a>
+                        </h2>
+                        <p>
+                            Address: 73Rd Street Between Tha Zin, And Ngu Shwe Wah St, Mandalay 05041, Myanmar (Burma)
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="blog-wrapper home-blog-wrapper white-bg">
+                    <div class="blog-thumb">
+                        <img src="mercure.jpg" alt="">
+                    </div>
+                    <div class="meta-info">
+                        <ul>
+                            <li class="post-time">July 24, 2023</li>
+                        </ul>
+                    </div>
+                    <div class="blog-content home-blog">
+                        <h2 class="blog-title">
+                            <a href="">
+                                Mercure Mandalay Hill Resort
+                            </a>
+                        </h2>
+                        <p>
+                            Address: At The Foot Of Mandalay, 9 Kwin, 416 B 10th St, Mandalay 05011, Myanmar (Burma)
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="blog-wrapper home-blog-wrapper white-bg">
+                    <div class="blog-thumb">
+                        <img src="hilton.svg" alt="">
+                    </div>
+                    <div class="meta-info">
+                        <ul>
+                            <li class="post-time">July 24, 2023</li>
+                        </ul>
+                    </div>
+                    <div class="blog-content home-blog">
+                        <h2 class="blog-title">
+                            <a href="">
+                                Hilton Mandalay
+                            </a>
+                        </h2>
+                        <p>
+                            Address: 26th St, 66th St, Mandalay 05021, Myanmar (Burma)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
